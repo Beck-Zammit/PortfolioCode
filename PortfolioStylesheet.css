@@ -1,0 +1,48 @@
+
+
+
+/*Center Align about me page*/
+
+div.centercontent {
+
+margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.navbar{
+    background-color: transparent !important;
+}
+
+.navbar .navbar-brand{
+    color: rgb(29, 29, 29);
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.navbar .navbar-nav{
+    margin: 0 auto;
+}
+
+
+
+/*Social media icons*/
+.fa-facebook {
+  background: #161616;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Padding for homepage content
+
+
+
+
+
