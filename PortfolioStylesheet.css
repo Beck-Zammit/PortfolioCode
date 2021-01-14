@@ -4,43 +4,42 @@
 /*Center Align about me page*/
 
 div.centercontent {
-
 margin: auto;
   width: 50%;
   padding: 10px;
 }
-.navbar{
-    background-color: transparent !important;
-}
 
-.navbar .navbar-brand{
-    color: rgb(29, 29, 29);
-    font-weight: bolder;
-    font-size: 1.3em;
-}
-
-.navbar .navbar-nav{
-    margin: 0 auto;
+/*Navbar Transparent*/
+ .navbar-trans { 
+  background-color: transparent !important;
 }
 
 
+/* Transparent Top*/
 
-/*Social media icons*/
-.fa-facebook {
-  background: #161616;
-  color: white;
+nav.navbartranscontainer {
+  position: relative;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+/* Thumbnail*/
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-/* Padding for homepage content
+.roundedcircle{
+    width: 100 !important;
+    height: auto !important;
+}
+
+
+socialmediafooter{
+    padding: 50px;
+    align-items: center;
+}
+
 
 
 
