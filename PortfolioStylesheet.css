@@ -1,5 +1,19 @@
+/*Button Styling*/
+/*Text Styling*/
+body {
+font-family: 'Alegreya SC', serif !important;
+align-content: center;
+}
 
-
+.carousel-item {
+  height: 100vh  !important;
+  min-height: 300px !important;
+  background: no-repeat center center scroll  !important;
+  -webkit-background-size: cover  !important;
+  -moz-background-size: cover  !important;
+  -o-background-size: cover  !important;
+  background-size: cover  !important;
+}
 /*Center Align about me page*/
 div.centercontent {
 margin: auto;
@@ -18,10 +32,13 @@ img {
 }
 
 
+
+/*Footer Styling*/
 socialmediafooter{
     padding: 50px;
     align-items: center;
 }
+
 
 
 
