@@ -1,0 +1,80 @@
+
+
+/*General Styling*/
+body {
+font-family: 'Alegreya SC', serif !important;
+align-content: center;
+}
+
+img.websiteartwork{
+    height: 500px;
+    width: 500px
+}
+
+
+/*Banner Styling*/
+div.welcomebanner{
+    position: relative;
+  text-align: center;
+  color: white;
+  position: center;
+
+}
+
+div.Banner-Text{
+    font-family: 'Alegreya SC', serif !important;
+    color: black;
+    font-size: 150px;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+/*Container Styling*/
+div.yellowcontainer{
+    background-color: #ffcc66 !important;
+    height: 1080;
+    width: 1920;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+
+div.whitecontainer{
+    background-color: #f1f1f1 !important;
+    height: 1080;
+    width: 1920;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;    
+}
+
+/*Carousel Styling
+Reference:  https://csshint.com/bootstrap-carousels/ https://codepen.io/davidbiek/pen/bMrQKN */
+div.carousel-nav-icon {
+   height: 48px;
+   width: 48px;
+}
+div.carousel-item {
+   .col, .col-sm, .col-md {
+      margin: 8px;
+      height: 300px;
+      background-size: cover;
+      background-position: center center;
+   }
+}
+
+
+/*Fotter Icons*/
+div.SocialMediaIcons{
+    background-color: black !important;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;    
+}
+
+
+
+
