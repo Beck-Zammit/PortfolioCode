@@ -6,16 +6,36 @@ font-family: 'Alegreya SC', serif !important;
 align-content: center;
 }
 
+.yellowbackground{
+    background-color: #ffcc66;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-bottom: 30%;
+    padding-right: 30%;
+}
 
 
 img.websiteartwork{
-    height: auto;
-    width: auto
+    max-height: 250px;
+
 }
 
 .carouselartwork{
     height: 250px;
     width: 250px;
+}
+
+
+/*Responsive Carousel 
+Reference: */
+.carouselresponsive{
+   /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*HoverImage
@@ -66,7 +86,7 @@ position: absolute;
 
 
 /*Banner Styling*/
-div.welcomebanner{
+.welcomebanner{
     position: relative;
   text-align: center;
   color: white;
@@ -74,7 +94,7 @@ div.welcomebanner{
 
 }
 
-div.Banner-Text{
+.Banner-Text{
     font-family: 'Alegreya SC', serif !important;
     color: black;
     font-size: 150px;
@@ -83,28 +103,26 @@ div.Banner-Text{
     left: 30px;
 }
 /*Container Styling*/
-div.yellowcontainer{
+.yellowcontainer{
     background-color: #ffcc66 !important;
-    height: 1080;
-    width: 1920;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px; 
 }
 
-div.whitecontainer{
+.whitecontainer{
     background-color: #f1f1f1 !important;
-    height: 1080;
-    width: 1920;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;    
+    
+}
+
+/*Contact Form Alignment
+Reference: https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/*/
+.centeralignform{
+     position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*Fotter Icons*/
-div.SocialMediaIcons{
+.SocialMediaIcons{
     background-color: black !important;
     padding-bottom: 40px;
     padding-top: 50px;
@@ -116,5 +134,11 @@ div.SocialMediaIcons{
 
 
 
-/*BackgrounImage*/
+
+/*Cropped Image*/
+.portfoliothumbnail{
+  width:300px;
+  height:300px;
+  object-fit:cover;
+}
 
